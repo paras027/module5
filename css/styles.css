@@ -1,0 +1,272 @@
+body{
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+	background-color: yellow;
+}
+#link{
+	text-decoration: none;
+}
+#number{
+	color: #557c3e;
+}
+#link:hover,#link:focus {
+	text-decoration: blink;
+}
+#logo{
+	background: url('https://raw.githubusercontent.com/siddartha19/Coursera-HTML-CSS-and-JavaScript-for-Web-Developers/master/Assignments/module-5/images/menu-tile.jpg') no-repeat;
+	width: 132px;
+	height: 132px;
+	margin: 10px 15px 10px 0px;
+}
+.pull-left{
+	float: left;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+h1{
+	font-family: 'Lora', serif;
+	text-shadow: 1px 1px 1px #222;
+	color: #557c3e;
+	line-height: .75;
+}
+span{
+	margin-top: 15px;
+
+}
+.navbar-toggler{
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+}
+
+}
+#navlist{
+	margin-top: 10px;
+}
+
+#navlist a:hover{
+	background: #E7E7E7;
+}
+
+#phone{
+	margin-top: 20px;
+	background-color: yellow;
+}
+#call{
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: yellow;
+	color: #557c3e;
+}
+#phone a{
+	text-align: right;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+#phone div{
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+#navlist a{
+	color: #951C49;
+}
+.navbar-toggler-icon{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+	margin-top: 0px;
+}
+.pull-right{
+	float: right;
+}
+.navbar-header button.navbar-toggler, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggler{
+	clear: both;
+}
+@media(min-width:  1192px){
+	#logo{
+	background: url('https://raw.githubusercontent.com/siddartha19/Coursera-HTML-CSS-and-JavaScript-for-Web-Developers/master/Assignments/module-5/images/menu-tile.jpg') no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 5px 5px 5px 0px;
+	background-position:center;
+}
+}
+@media (min-width: 992px) and (max-width: 1191px){
+	#logo{
+	background: url('C:/Users/ACER/Downloads/food1.jpg') no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 5px 5px 5px 0px;
+	background-position: center;
+}
+}
+@media (max-width: 991px){
+	#logo{
+	background: url('C:/Users/ACER/Downloads/food1.jpg') no-repeat;
+	width: 0px;
+	height: 0px;
+	margin: 0px 0px 0px 0px;
+	background-position: center;
+}
+}
+#container{
+	position: relative;
+}
+@media(min-width: 992px){
+	#navlist{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+}
+
+@media (max-width: 991px){
+	.navbar-toggler{
+	display: block;
+	position: absolute;
+	top: 20px;
+	right: 0px;
+	}
+
+#navlist{
+	text-align: center;
+}
+}
+
+#navbarTogglerDemo02 a{
+	font-size: 1.2em;
+}
+#navbarTogglerDemo02 a span{
+	margin-right: 10px;
+}
+#jumbo{
+	margin-top: 20px;
+}
+#l1{
+	height: 300px;
+	margin-top: 20px;
+}
+#one,#two,#three{
+	height: 300px;
+	width: 100%;
+	position: relative;
+	
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	background-position: center;
+}
+#one{
+	background: url("https://raw.githubusercontent.com/siddartha19/Coursera-HTML-CSS-and-JavaScript-for-Web-Developers/master/Assignments/module-5/images/specials-tile.jpg");
+	background-position: center;
+}
+#two{
+	background: url("https://raw.githubusercontent.com/siddartha19/Coursera-HTML-CSS-and-JavaScript-for-Web-Developers/master/Assignments/module-5/images/menu-tile.jpg");
+	background-position: center;
+}
+#three{
+	background: url("C:/Users/ACER/Downloads/nick-karvounis-Ciqxn7FE4vE-unsplash (1).jpg");
+	background-position: center;
+}
+#one:hover, #two:hover, #three:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#one span, #two span, #three span{
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	right: 0px;
+	width: 100%;
+	font-family: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+@media(min-width: 500px) and (max-width: 768px)
+{
+	    width: 300px;
+	    margin: 0 
+}
+.panel-footer{
+	padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+  margin-top: 20px;
+}
+.panel-footer h3{
+	margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+#address p{
+	font-size: 10px;
+	color: green;
+}
+#testimonials p{
+	font-style: italic;w
+}
+@media(max-width: 768px)
+{
+	.panel-footer section{
+		text-align: center;
+	}
+}
+#categ{
+	margin-top: 20px;
+	color: white;
+}
+#aivi{
+	color: whitesmoke;
+}
+#first{
+	width: 200px;
+		height: 200px;
+	background-position: center;
+}
+#M1{
+		position: relative;
+		border: 2px solid #3F0C1F;
+		overflow: hidden;
+		width: 200px;
+		height: 200px;
+		margin: 10px
+}
+#M1 span{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	text-align: center;
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+#M1:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#categ + div{
+	margin-bottom: 50px;
+}
+@media(max-width: 479px)
+{
+	.col-xxs-12{
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: center;
+		width: 100%;
+		background-position: center;
+	}
+}
+.active{
+	box-shadow: 0 1px 5px 1px;
+	background-color: white;
+}
